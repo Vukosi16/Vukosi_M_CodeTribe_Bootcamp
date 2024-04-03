@@ -1,3 +1,87 @@
 body {
+    margin: 0;
+}
+
+.header {
+    background-color: white;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    position: fixed;
+}
+
+.imageContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
+    border: 2px solid purple;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    left: 100px;
+}
+
+.logo {
+    width: 95px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.homeLink{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 2px solid purple;
+    color: white;
+    width: 105px;
+    height: 45px;
+    right: 500px;
+}
+
+.aboutLink {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 2px solid purple;
+    color: white;
+    width: 105px;
+    height: 45px;
+    right: 300px;
+}
+
+.contactLink {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 2px solid purple;
+    color: white;
+    width: 105px;
+    height: 45px;
+    right: 100px;
+}
+
+.main {
+    background-color: brown;
+    height: 85vh;
+    width: 100vw;
+}
+
+.footer {
+    background-color: aqua;
+    height: 35vh;
+    width: 100vw;
 }
