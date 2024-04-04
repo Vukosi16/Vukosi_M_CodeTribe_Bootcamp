@@ -89,8 +89,11 @@ body {
 
 .main {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 85vh;
     width: 100vw;
+    position: relative;
 }
 
 p, h1 {
@@ -125,7 +128,80 @@ p, h1 {
 }
 
 .footer {
-    background-color: aqua;
-    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(134, 90, 175, 0.308);
+    height: 31vh;
     width: 100vw;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 99%;
+    padding-left: 30px;
+    gap: 40px;
+}
+
+.Logo {
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(235, 31, 235, 0.473);
+    border-radius: 40px;
+}
+
+.adressContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40vw;
+    height: 99%;
+    padding-left: 60px;
+}
+
+.leftAC {
+    width: 30%;
+}
+
+.rightAC {
+    width: 50%;
+}
+
+.maps {
+    display: flex;
+    width: 99%;
+    height: 99%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.map {
+    height: 80%;
+    width: 70%;
+}
+
+#arrow {
+    position: absolute;
+    bottom: 30px;
+    width: 66px;
+    height: 66px;
+    border: none;
+    border-radius: 33px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.arrow {
+    width: 60px;
+    height: 60px;
+    border: 1px solid blueviolet;
+    border-radius: 50%;
+    padding-right: 1px;
+}
+
+#arrow:hover {
+    background-color: blueviolet;
 }
