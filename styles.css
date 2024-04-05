@@ -216,6 +216,7 @@ p, h1 {
 }
 
 .headingContainer {
+    /* padding-top: 15vh; */
     display: flex;
     align-items: center;
     height: 30vh;
@@ -253,7 +254,7 @@ p, h1 {
 
 .arrowGrid {
     position: absolute;
-    top: 50vh;
+    top: 35vh;
     left: 48vw;
 }
 
