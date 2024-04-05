@@ -341,3 +341,52 @@ p, h1 {
     align-items: center;
     align-content: center;
 }
+
+/* For About Page*/
+.allesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    flex-direction: column;
+}
+
+.backGroundContact {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 50vh;
+    border: 5px solid rgb(46, 0, 46);
+    color: aliceblue;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.bigHeading {
+    font-size: 3em;
+    color: antiquewhite;
+    position: absolute;
+    top: 50px;
+}
+
+a {
+    display: inline;
+}
