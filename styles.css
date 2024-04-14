@@ -209,17 +209,17 @@ p, h1 {
 
 /* Styles for About Me Page */
 .wallpaper {
-    height: 30vh;
+    height: 45vh;
     width: 100vw;
     position: absolute;
     z-index: -2;
 }
 
 .headingContainer {
-    /* padding-top: 15vh; */
     display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 30vh;
+    height: 45vh;
     width: 100vw;
     background-color: rgba(219, 36, 219, 0.26);
     color: aliceblue;
@@ -232,6 +232,52 @@ p, h1 {
     padding: 0;
     padding-left: 30px;
     margin: 0;
+}
+
+
+
+.aboutText {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 18px;
+    padding-right: 200px;
+}
+
+.bottomHeading{
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: 45vh;
+    justify-content: center;
+}
+
+.projectsHeadings{
+    display: grid;
+    grid-template-columns: 20vw;
+    grid-template-rows: repeat(4, 40px);
+    font-size: 18px;
+    border: 2px solid rgba(128, 0, 128, 0.247);
+    height: 30vh;
+    justify-content: center;
+}
+
+.headingP{
+    background-color: rgba(137, 43, 226, 0.534);
+    font-weight: bolder;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.projectLinks{
+    color: aliceblue;
+}
+
+.projectGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(128, 0, 128, 0.247);
+    color: aliceblue;
 }
 
 .para {
@@ -254,7 +300,7 @@ p, h1 {
 
 .arrowGrid {
     position: absolute;
-    top: 35vh;
+    top: 20vh;
     left: 48vw;
 }
 
