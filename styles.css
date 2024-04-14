@@ -393,7 +393,6 @@ p, h1 {
 .allesContainer {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -409,8 +408,8 @@ p, h1 {
 
 .cardContainer {
     display: flex;
-    flex-direction: column;
-    width: 70vw;
+    flex-direction: row;
+    width: 85vw;
     height: 50vh;
     border: 5px solid rgb(46, 0, 46);
     color: aliceblue;
@@ -420,11 +419,17 @@ p, h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.formDiv{
+    display: flex;
+    margin-right: 200px;
+}
+
 .socials {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    padding-right: 350px;
 }
 
 .bigHeading {
@@ -436,4 +441,11 @@ p, h1 {
 
 a {
     display: inline;
+}
+
+#submit{
+    width: 100px;
+    height: 60px;
+    background-color: rgba(137, 43, 226, 0.397);
+    border-radius: 12px;
 }
