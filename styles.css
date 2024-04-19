@@ -6,11 +6,13 @@ body {
 .pageContainer {
     display: flex;
     flex-direction: column;
+    /* max-width: 100%;
+    overflow-x: hidden; */
 }
 
 .header {
     background-color: white;
-    width: 100vw;
+    width: 100%;
     height: 15vh;
     display: flex;
     flex-direction: row;
@@ -88,12 +90,13 @@ body {
     color: rgb(134, 90, 175);
 }
 
+
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 85vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
 }
 
@@ -115,7 +118,7 @@ p, h1 {
 .rightMain {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 45vw;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -133,7 +136,7 @@ p, h1 {
     flex-direction: row;
     background-color: rgba(134, 90, 175, 0.308);
     height: 31vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .links {
@@ -157,9 +160,9 @@ p, h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 40vw;
+    width: 50vw;
     height: 99%;
-    padding-left: 60px;
+    padding-left: 90px;
 }
 
 .leftAC {
@@ -167,7 +170,8 @@ p, h1 {
 }
 
 .rightAC {
-    width: 50%;
+    width: 100%;
+    padding-left: 40px;
 }
 
 .maps {
@@ -176,7 +180,7 @@ p, h1 {
     height: 99%;
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 .map {
@@ -184,28 +188,7 @@ p, h1 {
     width: 70%;
 }
 
-#arrow {
-    position: absolute;
-    bottom: 30px;
-    width: 66px;
-    height: 66px;
-    border: none;
-    border-radius: 33px;
-    padding: 0;
-    cursor: pointer;
-}
 
-.arrow {
-    width: 60px;
-    height: 60px;
-    border: 1px solid blueviolet;
-    border-radius: 50%;
-    padding-right: 1px;
-}
-
-#arrow:hover {
-    background-color: blueviolet;
-}
 
 /* Styles for About Me Page */
 .wallpaper {

@@ -10,44 +10,11 @@ const address = {standNo: "1100",
     code: "0083"
 };
 
-const streetNumber = document.querySelector('.streetNumber');
-streetNumber.textContent = address["standNo"];
 
-const streetName = document.querySelector('.streetName');
-streetName.textContent = address["streetName"];
+const firstNameSpan = document.querySelector('.firstNameSpan');
+firstNameSpan.textContent = firstName;
 
-const  suburb = document.querySelector(".suburb");
-suburb.textContent = address["suburb"];
+const fullNameSpan = document.querySelector('.fullNameSpan');
+fullNameSpan.textContent = fullName;
 
-const code = document.querySelector(".areaCode");
-code.textContent = address["code"];
-
-const contactNumber = document.querySelector('.contactNumber');
-contactNumber.textContent = phoneNumber;
-
-const emailHtml = document.querySelector('.contactEmail');
-emailHtml.textContent = email;
-
-
-
-
-
-const nameHeading = document.querySelector('.nameHeading');
-nameHeading.textContent =   `${fullName}`;
-
-const indexPageDescription = document.querySelector('.description');
-indexPageDescription.textContent = `${bio}`;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const projects = ["Etch A Sketch", "Calculator", "Youtube Clone", "Javascript Rock-Paper-Scissors"];
