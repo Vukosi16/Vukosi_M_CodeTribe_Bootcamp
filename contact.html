@@ -29,51 +29,45 @@
     </div>
 
     <div class="allesContainer">
+
         <h1 class="bigHeading">
             Contact Me 
         </h1>
-        
+
         <img class="backGroundContact" src="./assets/pictures/backGroundContact.jpeg" alt="">
 
-        <div class="cardContainer">
-            <div class="leftS">
-                Vukosi Mohlabini<br>
-                Phone: +27 67 257 5232 <br>
-                <p>Email: <a href="mailto:vukosimohlabini16@gmail.com">VukosiMohlabini16@gmail.com</a><br>
-                </p>
-            <div class="socials">
-                <div class="links">
-
-                    <a href="https://github.com/Vukosi16" target="_blank">
-                        <img class="githubLogo Logo" src="./assets/pictures/githubLogo.png" alt="github link">
-                    </a>
-    
-                    <a href="https://www.linkedin.com/in/vukosi-mohlabini-158646174/" target="_blank">
-                        <img class="linkedIn Logo" src="./assets/pictures/linkedIn.webp" alt="linkedin link">
-                    </a>
-    
-                    <a href="https://twitter.com/VukosiMohlabin4" target="_blank">
-                        <img class="Logo" src="./assets/pictures/xLogo.avif" alt="X logo">
-                    </a>
-                </div>
-            </div>
-            </div>
-
             <div class="formDiv">
-                <form action="#">
-                    <label for="names">Name & Surname *</label>
-                    <input type="text" name="names" id="names">
-                    <label for="email">Email*</label>
-                    <input type="email" name="email" id="email">
-                    <label for="textarea">Message</label>
-                    <textarea rows="2" cols="25" id="textarea"></textarea>
-                    <input type="submit" name="submit" id="submit">
+                <form action="https://formspree.io/f/xdoqyddj" method="post">
+                    <div class="formGrid">
+
+                        <div class="gridForm left-column 1">
+                            <label class="gridLabel" for="name">Name*</label>
+                            <input class="gridInput" type="text" name="name" id="name">
+                        </div>
+
+                        <div class="gridForm right-column 1">
+                            <label class="gridLabel" for="surname">Surname*</label>
+                            <input class="gridInput" type="text" name="surname" id="surname">
+                        </div>
+
+                        <div class="gridForm left-column 2">
+                            <label class="gridLabel" for="email">Email*</label>
+                            <input class="gridInput" type="email" name="email" id="email">
+                        </div>
+                        <div class="gridForm right-column 2">
+                            <label class="gridLabel" for="textarea">Message</label>
+                            <textarea name="textarea" rows="7" cols="25" id="textarea"></textarea>
+                        </div>
+
+                        <div class="submitButtonDiv">
+                            <input type="submit" name="submit" id="submit">
+                        </div>
+
+                    </div>
+
                 </form>
-    
+
             </div>
-
-
-        </div>
 
     </div>
 

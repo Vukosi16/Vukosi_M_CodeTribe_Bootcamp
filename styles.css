@@ -193,7 +193,7 @@ p, h1 {
 /* Styles for About Me Page */
 .wallpaper {
     height: 45vh;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     z-index: -2;
 }
@@ -203,7 +203,7 @@ p, h1 {
     flex-direction: column;
     align-items: center;
     height: 45vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgba(219, 36, 219, 0.26);
     color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -236,7 +236,7 @@ p, h1 {
 
 .projectsHeadings{
     display: grid;
-    grid-template-columns: 20vw;
+    grid-template-columns: 18vw;
     grid-template-rows: repeat(4, 40px);
     font-size: 18px;
     border: 2px solid rgba(128, 0, 128, 0.247);
@@ -264,7 +264,7 @@ p, h1 {
 }
 
 .para {
-    width: 100vw;
+    width: 100%;
     height: 5vh;
     display: flex;
     align-items: center;
@@ -276,16 +276,12 @@ p, h1 {
 
 .mainGrid {
     display: grid;
+    width: 100%;
     grid-template-columns: 50vw 50vw;
     grid-template-rows: 70vh 70vh;
     position: relative;
 }
 
-.arrowGrid {
-    position: absolute;
-    top: 20vh;
-    left: 48vw;
-}
 
 .backgroundImageGrid {
     position: absolute;
@@ -296,11 +292,12 @@ p, h1 {
 
 .players {
     display: grid;
-    grid-template-columns: 400px;
+    grid-template-columns: 100%;
     grid-template-rows: repeat(6, 70px);
     justify-content: center;
     align-items: center;
     align-content: center;
+    width: 95%;
 }
 
 .contentGridItems {
@@ -352,6 +349,7 @@ p, h1 {
     justify-content: center;
     align-items: center;
     align-content: center;
+    width: 95%;
 }
 
 .youtubers {
@@ -361,6 +359,7 @@ p, h1 {
     justify-content: center;
     align-items: center;
     align-content: center;
+    width: 95%;
 }
 
 .movies {
@@ -370,13 +369,14 @@ p, h1 {
     justify-content: center;
     align-items: center;
     align-content: center;
+    width: 95%;
 }
 
 /* For About Page*/
 .allesContainer {
     display: flex;
-    justify-content: center;
-    width: 100vw;
+    align-items: center;
+    width: 100%;
     height: 100vh;
     position: relative;
     flex-direction: column;
@@ -389,37 +389,18 @@ p, h1 {
     height: 100%;
 }
 
-.cardContainer {
-    display: flex;
-    flex-direction: row;
-    width: 85vw;
-    height: 50vh;
-    border: 5px solid rgb(46, 0, 46);
-    color: aliceblue;
-    padding-top: 50px;
-    padding-left: 50px;
-    font-size: 2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
 .formDiv{
     display: flex;
-    margin-right: 200px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
 }
 
-.socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    padding-right: 350px;
-}
 
 .bigHeading {
     font-size: 3em;
     color: antiquewhite;
-    position: absolute;
-    top: 50px;
 }
 
 a {
@@ -431,4 +412,52 @@ a {
     height: 60px;
     background-color: rgba(137, 43, 226, 0.397);
     border-radius: 12px;
+}
+
+.formGrid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    grid-template-rows: repeat(4, 75px);
+}
+
+.gridForm.left-column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gridForm.right-column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gridLabel {
+    display: block; /* This makes the label appear on a new line */
+    margin-bottom: 5px; /* Adds some spacing between label and input */
+    padding-right: 95px;
+    font-size: 2em;
+    color: aliceblue;
+  }
+
+  .submitButtonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gridForm.left-column2{
+    padding-bottom: 50px;
+  }
+
+.gridInput{
+    width: 100%;
 }
